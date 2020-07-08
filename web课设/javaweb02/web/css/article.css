@@ -1,0 +1,108 @@
+body{
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1939.2px;
+    min-width: 1440px;
+}
+.head{
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    align-content: center;
+}
+.tit a:hover, .select:hover{
+    background-color: #fff;
+    color:blue;
+}
+.navleft{
+     margin-top: 20px;
+ }
+.tit{
+    color: rgb(152, 211, 167);
+    font-size: 20px;
+}
+.select{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.searchBtn{
+    width: 174px;
+    height: 36px;
+    border: 1px solid rgb(229, 229, 229) ;
+    border-radius: 2px;
+    font-size: 14px;
+    background: 0 0;
+    transition: width .6s ease-out,visibility .6s 1ms ease-out;
+}
+.searchBtn2{
+    width: 74px;
+    height: 40px;
+    border: 1px solid rgb(229, 229, 229) ;
+    border-radius: 2px;
+    font-size: 14px;
+    background: 0 0;
+    transition: width .6s ease-out,visibility .6s 1ms ease-out;
+}
+.navright{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+textarea {
+    width: 500px;
+    height: 90px;
+}
+input[type="text"] {
+    height: 40px;
+    width: 500px;
+}
+td.menu {
+    font-size: 22px;
+    font-family: ArialMT;
+    color: slategray;
+}
+tr {
+    /* margin-bottom: 20px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.content {
+    width: 100%;
+    min-height: 600px;
+    background-image: url(../images/bg2.jpeg);
+    background-repeat: repeat;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+input[type="submit"] {
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    /* text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4); */
+     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: #4479BA;
+    color: #FFF;
+    padding: 7px 10px;
+    text-decoration: none;
+    width: 70px;
+}
+.display-title {
+    font-size: 30px;
+    text-align: center;
+}
+.list-news {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 50px;
+}
