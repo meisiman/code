@@ -4,7 +4,7 @@ package leetcode;
  * @author Mei Siman
  * @date 2020/6/10 15:44
  */
-public class Test053 {
+public class Test0053 {
     public static int maxSubArray(int[] nums) {
         int[] arr = new int[nums.length];//动态规划，存放最大值
         int max = nums[0];

@@ -6,7 +6,7 @@ package leetcode;
  *
  * 给定一个字符串 s，找到 s 中最长的回文子串
  */
-public class Test005 {
+public class Test0005 {
     public static String longestPalindrome(String s) {
         int len = s.length();
         if (len < 2)

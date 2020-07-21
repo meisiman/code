@@ -6,7 +6,7 @@ import java.util.*;
  * @author Mei Siman
  * @date 2020/6/12 17:17
  */
-public class Test015 {
+public class Test0015 {
     public static List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> ans = new ArrayList<List<Integer>>();
         Arrays.sort(nums);

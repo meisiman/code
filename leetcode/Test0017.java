@@ -9,7 +9,7 @@ import java.util.Map;
  * @author Mei Siman
  * @date 2020/6/30 14:33
  */
-public class Test017 {
+public class Test0017 {
     Map<String, String> phone = new HashMap<String, String>() {{
         put("2", "abc");
         put("3", "def");

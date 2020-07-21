@@ -8,7 +8,7 @@ package leetcode;
  *
  * 合并 k 个排序链表，返回合并后的排序链表。
  */
-public class Test023 {
+public class Test0023 {
     public ListNode mergeKLists(ListNode[] lists) {
         if(lists==null||lists.length==0) return null;
         return merge(lists,0,lists.length-1);

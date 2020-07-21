@@ -12,8 +12,8 @@ package leetcode;
  * <p>
  * 您可以假设除了数字 0 之外，这两个数都不会以 0 开头。
  */
-public class Test002 {
-    class ListNode {
+public class Test0002 {
+    private class ListNode {
         int val;
         ListNode next;
 

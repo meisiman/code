@@ -7,7 +7,7 @@ import java.util.Stack;
  * @author Mei Siman
  * @date 2020/6/8 15:47
  */
-public class Test020 {
+public class Test0020 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Stack<Character> stack = new Stack<>();

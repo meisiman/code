@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author Mei Siman
  * @date 2020/7/2 17:05
  */
-public class Test004 {
+public class Test0004 {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] nums3 = new int[nums1.length + nums2.length];
         System.arraycopy(nums1, 0, nums3, 0, nums1.length);
